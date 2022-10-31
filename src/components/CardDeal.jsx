@@ -4,7 +4,7 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const CardDeal = () => (
-  <div className={layout.section}>
+  <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Find a better card deal <br className="sm:block hidden" /> in few easy
@@ -19,7 +19,7 @@ const CardDeal = () => (
     <div className={layout.sectionImg}>
       <img src={card} alt="card" className="w-100% h-100%" />
     </div>
-  </div>
+  </section>
 );
 
 export default CardDeal;

@@ -1,5 +1,16 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Hero, Navbar, Stats } from "./components";
+import {
+  Billing,
+  Business,
+  CardDeal,
+  Clients,
+  CTA,
+  Footer,
+  Hero,
+  Navbar,
+  Stats,
+  Testimonials,
+} from "./components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -19,7 +30,10 @@ const App = () => (
         <Business />
         <Billing />
         <CardDeal />
-        CardDeal AboutUs Clients Cta Footer
+        <Testimonials />
+        <Clients />
+        <CTA />
+        <Footer />
       </div>
     </div>
   </div>
